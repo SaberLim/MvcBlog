@@ -1,7 +1,9 @@
 ﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
 @model RegisterModel
+@inject IViewLocalizer Localizer
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = Localizer["Register"];
 }
 
 <h1>@ViewData["Title"]</h1>
