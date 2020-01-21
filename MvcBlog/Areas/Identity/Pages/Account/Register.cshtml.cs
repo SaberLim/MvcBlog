@@ -30,7 +30,7 @@ namespace MvcBlog.Areas.Identity.Pages.Account
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender,
+            IEmailSender emailSender ,
             IStringLocalizer<RegisterModel> localizer)
         {
             _userManager = userManager;

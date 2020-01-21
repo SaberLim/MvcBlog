@@ -78,8 +78,6 @@ namespace MvcBlog
             app.UseStaticFiles();
             // To configure external authentication, 
             // see: http://go.microsoft.com/fwlink/?LinkID=532715
-            app.UseStaticFiles();
-
             app.UseRouting();
 
             app.UseAuthentication();
